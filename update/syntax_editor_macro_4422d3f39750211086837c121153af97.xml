@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="syntax_editor_macro">
+    <syntax_editor_macro action="INSERT_OR_UPDATE">
+        <comments>How to extend Glide Ajax class</comments>
+        <name>glideajax</name>
+        <sys_class_name>syntax_editor_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-17 05:19:36</sys_created_on>
+        <sys_id>4422d3f39750211086837c121153af97</sys_id>
+        <sys_name>glideajax</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>syntax_editor_macro_4422d3f39750211086837c121153af97</sys_update_name>
+        <text>var MyScriptInclude = Class.create();&#13;
+MyScriptInclude.prototype = Object.extendsObject(NameOfScriptIncludeToExtend, {&#13;
+    myNewFunction: function() {&#13;
+    },&#13;
+&#13;
+   -myPrivateFunction: function(){   //this function is not client callable.&#13;
+    },&#13;
+&#13;
+    type: 'MyScriptInclude'&#13;
+};</text>
+    </syntax_editor_macro>
+</record_update>
